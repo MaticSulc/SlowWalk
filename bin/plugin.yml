@@ -1,0 +1,17 @@
+main: com.excavator.slowwalk.SlowWalk
+name: SlowWalk
+version: '1.0'
+description: A plugin that allows changing player walk speed
+author: Excavator#9612
+commands:
+  walk:
+    description: Change your walking speed
+    aliases:
+    - walkspeed
+    permission: slowwalk.use
+    permission-message: You do not have permission to use SlowWalk.
+    usage: /<command> [0.0-1.0]
+permissions:
+  slowwalk.use:
+    description: Allows using the SlowWalk command.
+    default: true
